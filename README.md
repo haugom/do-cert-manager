@@ -1,6 +1,6 @@
 # Playing with cert-manager and let's encrypt on DO
 
-I've experimentet with [cert-manager](https://github.com/jetstack/cert-manager) and ingress-nginx on digital ocean using the loadbalancer to his ingress-nginx.
+I've experimentet with [cert-manager](https://github.com/jetstack/cert-manager) and [ingress-nginx](https://github.com/haugom/do-ingress-nginx) on digital ocean using the loadbalancer to his ingress-nginx.
 
 I can update add a DNS A record of *.my.domain and point it to the load balancer on digital ocean.
 
