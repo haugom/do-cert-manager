@@ -226,7 +226,7 @@ spec:
       containers:
         - name: cert-manager
           image: "quay.io/jetstack/cert-manager-controller:v0.5.2"
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           args:
           - --cluster-resource-namespace=$(POD_NAMESPACE)
           - --leader-election-namespace=$(POD_NAMESPACE)
